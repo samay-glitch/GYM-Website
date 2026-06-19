@@ -18,17 +18,17 @@ The website focuses on modern UI design, smooth animations, interactive elements
 
 ### Homepage
 
-![Homepage](<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/0e059231-f5b0-4315-a67c-ab2b7c07e7cb" />)
+![Homepage](https://github.com/user-attachments/assets/0e059231-f5b0-4315-a67c-ab2b7c07e7cb)
 
 ### Services & Trainers
 
-![Services](<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/28112c50-f531-4683-a2d3-081e4d713164" />)
-![Trainers](<img width="1273" height="1078" alt="image" src="https://github.com/user-attachments/assets/59c0ef0d-7983-4382-8d61-38315a3472a7" />)
+![Services](https://github.com/user-attachments/assets/28112c50-f531-4683-a2d3-081e4d713164)
 
+![Trainers](https://github.com/user-attachments/assets/59c0ef0d-7983-4382-8d61-38315a3472a7)
 
 ### BMI Calculator
 
-![BMI Calculator](<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/52dbd336-21c5-48a0-b66b-8881e3313a54" />)
+![BMI Calculator](https://github.com/user-attachments/assets/52dbd336-21c5-48a0-b66b-8881e3313a54)
 
 ---
 
