@@ -18,7 +18,7 @@ The website focuses on modern UI design, smooth animations, interactive elements
 
 ### Homepage
 
-![Homepage](https://github.com/user-attachments/assets/0e059231-f5b0-4315-a67c-ab2b7c07e7cb)
+![Homepage](https://github.com/user-attachments/assets/33ce4100-5ad0-441c-ba06-c900ecb277f8)
 
 ### Services & Trainers
 
