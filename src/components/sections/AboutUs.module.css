@@ -1,0 +1,171 @@
+.about {
+  padding: 8rem 2rem;
+  background-color: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.title {
+  color: #fff;
+}
+
+.highlight {
+  color: var(--accent-color);
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1;
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: border-color var(--transition-normal);
+}
+
+.card:hover {
+  border-color: rgba(255, 60, 31, 0.3);
+}
+
+.cardIcon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 60, 31, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.meetTeamLink {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: color var(--transition-normal);
+}
+
+.meetTeamLink:hover {
+  color: var(--accent-color);
+}
+
+.imageContent {
+  flex: 1;
+  position: relative;
+}
+
+.imageGrid {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+.img1, .img2 {
+  position: absolute;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.img1 {
+  width: 70%;
+  height: 60%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.img2 {
+  width: 60%;
+  height: 55%;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border: 5px solid var(--bg-color);
+}
+
+.experienceBadge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140px;
+  height: 140px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  box-shadow: 0 10px 30px var(--accent-glow);
+  border: 8px solid var(--bg-color);
+}
+
+.years {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1;
+}
+
+.text {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 992px) {
+  .content {
+    flex-direction: column;
+  }
+  .imageGrid {
+    height: 500px;
+    margin-top: 4rem;
+  }
+  .cards {
+    flex-direction: column;
+  }
+}

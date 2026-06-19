@@ -1,0 +1,182 @@
+.contact {
+  padding: 8rem 2rem;
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: #fff;
+}
+
+.highlight {
+  color: var(--accent-color);
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  gap: 4rem;
+}
+
+.formContainer {
+  flex: 1;
+  background: var(--bg-light);
+  padding: 3rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  position: relative;
+}
+
+.inputGroup input, .inputGroup select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0;
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color var(--transition-normal);
+}
+
+.inputGroup select {
+  cursor: pointer;
+}
+
+.inputGroup select option {
+  background-color: var(--bg-light);
+  color: #fff;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  color: var(--text-secondary);
+  pointer-events: none;
+  transition: all var(--transition-normal);
+}
+
+.inputGroup input:focus, .inputGroup input:not(:placeholder-shown) {
+  border-bottom-color: var(--accent-color);
+  outline: none;
+}
+
+.inputGroup input:focus ~ label, .inputGroup input:not(:placeholder-shown) ~ label {
+  top: -1.2rem;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+}
+
+.inputGroup select:focus {
+  outline: none;
+  border-bottom-color: var(--accent-color);
+}
+
+.submitBtn {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.submitBtn.success {
+  background-color: #2ecc71;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+}
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.infoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.infoCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.infoCard {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.infoIcon {
+  color: var(--accent-color);
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.infoCard h3 {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.infoCard p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.mapContainer {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 992px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+  .infoCards {
+    grid-template-columns: 1fr;
+  }
+}
